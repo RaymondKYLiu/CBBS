@@ -1,7 +1,8 @@
-Implementation of Codebook background subtraction
+### Implementation of Codebook background subtraction
 
-Kyungnam Kima, Thanarat H. Chalidabhongseb, David Harwooda, Larry Davisa. Real-time foreground–background segmentation
-using codebook model
+Kyungnam Kima, Thanarat H. Chalidabhongse, David Harwood, Larry Davis. Real-time foreground–background segmentation
+using codebook model.
+
 http://www.umiacs.umd.edu/~knkim/paper/Kim-RTI2005-FinalPublished.pdf
 
 ### Usage
