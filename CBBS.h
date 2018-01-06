@@ -38,11 +38,11 @@ public:
     void update(uchar* p, int T, bool is_train_state);
     float score();
 
-    float       m_colors[3];           	// means of (R,G,B)
-    int         m_frequency;           	// frequency with which the codeword has occurred
-    int         m_stale;          		// maximum negative run-length (MNRL)
+    float       m_colors[3];            // means of (R,G,B)
+    int         m_frequency;            // frequency with which the codeword has occurred
+    int         m_stale;                // maximum negative run-length (MNRL)
     int         m_first_update;
-    int         m_last_update;    		// ﬁrst and last access times,
+    int         m_last_update;          // ﬁrst and last access times,
 
     bool        m_is_perm;        // robust codeword permanentlly
     bool        m_is_valid;       // invalid codework not be considered
@@ -65,7 +65,8 @@ public:
         COLOR_TYPE_RGB
     };
 
-    CBModel(unsigned int num_frame_train, ColorType color_type = COLOR_TYPE_BGR, float e1 = 7.5, float e2 = 15,
+    CBModel(unsigned int num_frame_train, ColorType color_type = COLOR_TYPE_BGR, float e1 = 7.5,
+            float e2 = 15,
             bool need_update = true, bool shadow_remove = false);
 
     CBModel() {};
